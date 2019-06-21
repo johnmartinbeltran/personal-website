@@ -1,0 +1,301 @@
+body{
+
+	margin: 0;
+	padding:0;
+	background-color: #313233;
+
+}
+
+
+
+.menu{
+	text-align: right;
+	padding: 15px;
+	text-decoration: none;
+	background: rgba(0,0,0,.8);
+	position:fixed;
+	width: 100%;
+	z-index: 99999;
+	
+	
+	
+}
+.menu li{
+	display: inline-block;
+	padding: 10px;
+	
+
+	
+}
+.menu li a{
+text-align: right;
+	padding-left: -30px;
+}
+.menu ul > li+li:before{
+	
+    color: #f7f7f7;
+    padding: 0 5px;
+}
+.menu ul > li > a{
+	font-family: "Courier New", Courier, monospace;
+	font-size: 24px;
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	letter-spacing: 1px;
+	transition: all ease-in-out 250ms;
+	padding-right: 50px;
+}
+.menu ul > li > a:hover{
+
+    color: #474b4f;
+}
+.box{
+	text-align: center;
+	font-size: 50px;
+
+	color: white;
+	font-family:inherit;
+	font-weight: bold;
+	text-decoration: none;
+	
+}
+.box .img1{
+	background-color: black;
+}
+
+.box .content{
+	position: absolute;
+	top: 70%;
+	left: 50%;
+    transform: translate(-50%, -50%);
+	letter-spacing: 1px;
+	
+}
+.box .content .vids{
+	padding-top: 70px;
+	float: left;
+
+	
+	
+}
+.box .content h1{
+	margin: 0;
+	padding:0;
+	transform: translateY(-45%);
+	letter-spacing: 0.2px;
+	
+	
+}
+.box .content p{
+	font-size: 20px;
+}
+ul{
+	margin:0;
+	padding:0;
+	
+}
+.box li{
+	display:inline-block;
+	padding-top: 50px;
+	margin: 10px;
+	list-style: none;
+
+	
+}
+.box li a{
+	color: white;
+	text-decoration: none;
+	font-size: 60px;
+	transition: all ease-in-out 250ms;
+		
+}
+.box li a:hover{
+	color: #b9b9b9;
+}
+
+
+
+
+.about {
+	text-align: center;
+	margin-top: -15px;
+	padding: 120px 0 120px;
+	font-size: 24px;
+	padding-top: 50px;
+	background:#313233;
+	color:white;
+
+}
+
+.about .avatar{
+	border-radius: 50%;
+}
+.about h2{
+	
+	margin-left: 20px;
+	font-size: 50px;
+	
+}
+
+.about p {
+	
+	font-weight: normal;
+	margin: 0 0 20px 20px;
+	border: 0;
+
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 24px;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+
+
+#advantages{
+   margin: 10px 80px 0 80px;
+	padding-top: 50px;
+	text-align: center;
+
+}
+
+#advantages .box2{
+    background: #ffffff;
+    margin: 0 0px 30px;
+    border: solid 1px #e6e6e6;
+    box-sizing: border-box;
+    padding: 20px 20px 100px 0;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, .3);
+	width: 500px;
+	display: inline-block;
+	font-size: 18px;
+	text-align: center;
+	border-radius: 2%;
+	
+	
+	
+}
+
+
+#advantages .box2 p{
+	text-align: center;
+	
+	
+	
+}
+#advantages .box2 h2{
+	text-decoration: none;
+	font-size: 50px;
+	font-family:  "eurostile",sans-serif;
+
+	color: #293347;
+	 
+}
+#advantages .box2 h3{
+	color: #8C43FF !important;
+}
+#advantages .box2 ul > li{
+	text-decoration: none;
+	list-style: none;
+	padding: 2px;
+	font-size: 18px;
+	
+}
+
+
+.container1{
+	width: 1280px;
+	margin: 70px auto 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-bottom: 100px;
+}
+
+.container1 .box1{
+	
+	position: relative;
+	width: 300px;
+	height: 300px;
+	background: #ff0;
+	margin: 10px;
+	box-sizing: border-box;
+	display: inline-block;
+	
+}
+.container1 .box1 .imgBox{
+	position: relative;
+	overflow: hidden;
+	
+}
+.container1 .box1 .imgBox img{
+	max-width: 100%;
+	height: 300px;
+	width: 300px;
+	
+}
+
+
+
+
+.text h1{
+	
+	
+	margin-left: 35%;
+	width: 30%;
+	text-align: center;
+	font-size: 4em;
+	text-shadow: 0 5px 15px rgba(0,0,0,.3);
+	text-transform: uppercase;
+	border: 15px solid #000;
+	border-top: none;
+
+}
+.text h1 span{
+	display: inline-block;
+	cursor:default;
+}
+
+#copyright{
+    background: black;
+    color: white;
+    padding: 25px 0px;
+    font-size: 18px;
+}
+#copyright p{
+    margin: 0px;
+    text-align: center;
+}
+
+
+#copyright .container{
+	text-align: center;
+	padding: 0px;
+	text-decoration: none;
+	background-color: black;
+	margin: 0;
+	
+	
+}
+#copyright .container li{
+	display: inline-block;
+	padding: 0px;	
+}
+#copyright .container ul > li+li:before{
+	
+    color: #f7f7f7;
+    padding: 0 5px;
+}
+#copyright .container ul > li > a{
+	font-family: "Courier New", Courier, monospace;
+	font-size: 24px;
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+		letter-spacing: 1px;
+	transition: all ease-in-out 250ms;
+}
+#copyright .container ul > li > a:hover{
+
+    color: #474b4f;
+}
